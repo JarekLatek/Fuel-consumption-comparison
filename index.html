@@ -20,12 +20,28 @@
     <h1 class="heading">Fuel consumption comparison</h1>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 left">
-          One of three columns
-        </div>
+        <div class="col-6 left"></div>
         <div class="col-6 right">
-          <input type="range" />
-          One of three columns
+          <label for="city">Miasto</label><br />
+          <span id="rs-bullet" class="rs-label">0</span>
+          <input
+            class="rs-range"
+            type="range"
+            id="city"
+            value="0"
+            min="0"
+            max="900"
+          /><br />
+          <label for="long-distance">Długie trasy</label><br />
+          <span id="rs-bullet-long" class="rs-label">0</span>
+          <input
+            class="rs-range"
+            type="range"
+            id="city"
+            value="0"
+            min="0"
+            max="900"
+          />
         </div>
       </div>
     </div>
