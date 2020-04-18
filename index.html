@@ -17,12 +17,12 @@
     <title>Fuel calculator</title>
   </head>
   <body>
-    <h1 class="heading">Fuel consumption comparison</h1>
-    <div class="container-fluid">
+    <h1 class="heading">Check if you should buy a hybrid car.</h1>
+    <div class="container">
       <div class="row">
-        <div class="col-6 left"></div>
-        <div class="col-6 right">
-          <label for="city">Miasto</label><br />
+        <!-- <div class="col-6 left"></div> -->
+        <div class="col content">
+          <label for="city">Set up number of kilometers you ride monthly in the city.</label><br />
           <span id="rs-bullet" class="rs-label">0</span>
           <input
             class="rs-range"
@@ -30,18 +30,23 @@
             id="city"
             value="0"
             min="0"
-            max="900"
+            max="8000"
           /><br />
-          <label for="long-distance">Długie trasy</label><br />
+          <label for="long-distance">Now set up number of kilometers you ride at highways.</label><br />
           <span id="rs-bullet-long" class="rs-label">0</span>
           <input
             class="rs-range"
             type="range"
-            id="city"
+            id="abroad"
             value="0"
             min="0"
-            max="900"
+            max="8000"
           />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="your-result" id="result"></h2>
         </div>
       </div>
     </div>

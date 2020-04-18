@@ -4,24 +4,32 @@
     padding-top: 60px;
 }
 
-.right {
-    background-color: bisque;
-    text-align: center;
-}
-
-.left {
-    background-color: aliceblue;
+.content {
     text-align: center;
 }
 
 label {
     margin-top: 35px;
+    font-size: 30px;
 }
+
+.your-result {
+    width: 60vw;
+
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.25);
+    padding: 30px 10px;
+    border-radius: 25px;
+}
+
 
 .rs-range {
     margin-top: 29px;
     margin-bottom: 35px;
-    width: 600px;
+    width: 800px;
     -webkit-appearance: none;
 }
 
@@ -90,7 +98,7 @@ label {
     box-sizing: border-box;
     border: 2px solid #2780aa;
     margin-top: 20px;
-    margin-left: -38px;
+    margin-left: 116px;
     left: attr(value);
     color: #2780aa;
     font-style: normal;
